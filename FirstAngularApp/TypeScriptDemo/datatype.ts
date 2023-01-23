@@ -51,6 +51,8 @@ enum Color {
   White,
 }
 
+// tuple datatype
+
 let c: Color = Color.White;
 
 let swapNumbs: [firstNumber: number, secondNumber: number];
@@ -62,3 +64,6 @@ function swapNumbers(num1: number, num2: number): [number, number] {
 swapNumbs = swapNumbers(13, 14);
 
 console.log(swapNumbs);
+
+// do not use any anywhere
+let department: any;
